@@ -813,3 +813,110 @@ video:active .video_wrapper {
 .copy_link_faq {
     color: #BAA78F;
 }
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+}
+.posts_card_wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+.posts_card {
+    margin-bottom: 10px;
+}
+.header_nav_list_item {
+    margin-right: 10px;
+}
+.partners_wrapper {
+    flex-wrap: wrap;
+}
+.partners_img {
+    margin-bottom: 50px;
+}
+.footer_wrapper {
+    flex-wrap: wrap;
+}
+.footer_column {
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 480px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header_wrapper::before {
+        display: none;
+    }
+    .header_wrapper::after {
+        display: none;
+    } 
+    .header_nav {
+        flex-direction: column;
+        align-items: center;
+    }  
+    .logo {
+        margin-bottom: 10px;
+    } 
+    .header_nav_list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header_nav_list_item {
+        margin-bottom: 5px;
+    }
+    .nav_buy {
+        margin-left: 20px;
+    }
+    .header_content {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .header_content_heading {
+        font-size: 46px;
+    }
+    .card_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .theme_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .theme_content {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .theme_link {
+        padding: 15px 15px;
+    }
+    .projects_buttons_grup {
+        flex-wrap: wrap;
+    }
+    .projects_card_grup {
+        flex-direction: column;
+        align-items: center;
+    }
+    .video_play {
+        height: 400px;
+    }
+    .mobile_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile_img {
+        width: 100%;
+    }
+    .counters_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .counters_card {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
